@@ -4,7 +4,7 @@ const knex = require('knex');
 // const connection = require('../../../config/config').connectionString;
 const connection =
   'postgresql://postgres:password@localhost:5432/treetracker_db';
-console.log('URL: ', connection);
+// console.log('URL: ', connection);
 
 const postgresPattern = /^postgresql:\//;
 
